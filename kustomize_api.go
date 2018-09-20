@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
+	_ "github.com/codeskyblue/go-sh" //将来的に使うだろうパッケージを一旦使わずに置いておく時にこう書きます。
 	"github.com/gorilla/mux"
 )
 
